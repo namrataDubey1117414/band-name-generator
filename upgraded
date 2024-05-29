@@ -1,0 +1,13 @@
+print("hello welcome to Band name generator !")
+print("what kind of theme you want?")
+theme=input("classical or modern?\n")
+if theme == "classical":
+    music = input("what is your favourite classical music?\n")
+    singer = input("who is your favourite classical singer?\n")
+    print("your classical band name can be"+music+" "+singer)
+elif theme == "modern":
+    music = input("what is your fav trending music aur song\n")
+    singer = input("who is your fav trending singer?\n ")
+    print("your modern band name can be"+music+" "+singer)
+else:
+    print("Invalid input.please choose either 'classical' or 'modern'.")
